@@ -10,23 +10,23 @@
         .config(function ($routeProvider) {
 
             $routeProvider.when("/complete", {
-                templateUrl: "/Angular/my/store/iews/thankYou.html"
+                templateUrl: "views/thankYou.html"
             });
 
             $routeProvider.when("/placeorder", {
-                templateUrl: "/Angular/my/store/views/placeOrder.html"
+                templateUrl: "views/placeOrder.html"
             });
 
             $routeProvider.when("/checkout", {
-                templateUrl: "/Angular/my/store/views/checkoutSummary.html"
+                templateUrl: "views/checkoutSummary.html"
             });
 
             $routeProvider.when("/products", {
-                templateUrl: "/Angular/my/store/views/productList.html"
+                templateUrl: "views/productList.html"
             });
 
             $routeProvider.otherwise({
-                templateUrl: "/Angular/my/store/views/productList.html"
+                templateUrl: "views/productList.html"
             });
         });
     </script>
